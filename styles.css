@@ -2,6 +2,19 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     font-family: 'Roboto', sans-serif;
 }
+.background{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  
+}
+
+.container{
+    max-width: 1440px;
+}
 
 header{
     background-color: #1f2937;
@@ -9,11 +22,15 @@ header{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hero{
 background-color: #1f2937;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 150px 0px;
 }
 
 .heromain{
@@ -21,11 +38,16 @@ background-color: #1f2937;
     font-weight: bolder;
     color: #f9faf8;
     margin-top: auto;
+    display: flex;
+    padding: 0px;
+    
 }
+
 
 .herop{
     font-size: 18px;
     color: #e5e7eb;
+    flex-shrink: 2;
 }
 
 .signup{
